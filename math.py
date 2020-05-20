@@ -1,8 +1,7 @@
-import math
+def add(a, b):
+    return a + b
 
-# Fractional number.
-n = 100.7
 
-# Absolute value.
-print(math.floor(n))
-print(math.ceil(n))
+def test_add():
+    assert add(2, 3) == 5
+    assert add('space', 'ship') == 'spaceship'
